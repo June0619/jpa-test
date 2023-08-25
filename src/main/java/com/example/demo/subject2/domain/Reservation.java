@@ -18,7 +18,7 @@ public class Reservation {
     @Column(name = "FEE")
     private long fee;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "MEMBER_ID")
     private Member member;
 
@@ -30,7 +30,7 @@ public class Reservation {
 
     public Reservation(Member member) {
         this.member = member;
-        this.status = ReservationStatus.WAITING;
+        this.status = ReservationStatus.USING;
     }
 
     public void useStart() {
