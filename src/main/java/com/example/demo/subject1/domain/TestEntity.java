@@ -1,10 +1,6 @@
-package com.example.demo.domain;
-
-import org.springframework.data.convert.Jsr310Converters;
-import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
+package com.example.demo.subject1.domain;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity

@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.demo.subject1.domain;
 
 import javax.persistence.AttributeConverter;
 import java.time.LocalDateTime;

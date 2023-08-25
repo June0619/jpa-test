@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.subject1.service;
 
-import com.example.demo.domain.TestEntity;
+import com.example.demo.subject1.domain.TestEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

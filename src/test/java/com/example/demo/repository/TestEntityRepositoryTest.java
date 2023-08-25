@@ -1,8 +1,7 @@
 package com.example.demo.repository;
 
-import com.example.demo.domain.TestEntity;
-import org.assertj.core.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
+import com.example.demo.subject1.domain.TestEntity;
+import com.example.demo.subject1.repository.TestEntityRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +13,6 @@ import javax.transaction.Transactional;
 import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @Transactional

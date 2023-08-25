@@ -1,23 +1,22 @@
 package com.example.demo.service;
 
-import com.example.demo.domain.TestEntity;
-import org.assertj.core.api.Assertions;
+import com.example.demo.subject1.domain.TestEntity;
+import com.example.demo.subject1.service.TestEntityListHandler;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @Transactional
 class TestEntityListHandlerTest {
 
-    @Autowired TestEntityListHandler testEntityListHandler;
+    @Autowired
+    TestEntityListHandler testEntityListHandler;
     @Autowired EntityManager em;
 
     @Test

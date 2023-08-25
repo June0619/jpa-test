@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.demo.subject1.repository;
 
-import com.example.demo.domain.TestEntity;
+import com.example.demo.subject1.domain.TestEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
