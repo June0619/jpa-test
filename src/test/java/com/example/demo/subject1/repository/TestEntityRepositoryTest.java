@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.example.demo.subject1.repository;
 
 import com.example.demo.subject1.domain.TestEntity;
 import com.example.demo.subject1.repository.TestEntityRepository;

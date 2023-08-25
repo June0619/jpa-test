@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.subject1.service;
 
 import com.example.demo.subject1.domain.TestEntity;
 import com.example.demo.subject1.service.TestEntityListHandler;
